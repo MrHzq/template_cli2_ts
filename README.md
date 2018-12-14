@@ -1,4 +1,4 @@
-# Vue 项目模板--Vue Cli 2.x + TypeScript
+# Vue 项目模板--Vue Cli 2 + TypeScript
 
 # 准备
 
