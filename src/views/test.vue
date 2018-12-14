@@ -1,5 +1,5 @@
 <template>
-    <div class="test">我是base</div>
+    <div class="test">我是：Vue 项目模板--TypeScript</div>
 </template>
 
 <script lang="ts">
