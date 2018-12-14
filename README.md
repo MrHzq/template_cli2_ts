@@ -207,7 +207,7 @@ new Vue({
 
 =================================================================
 
-# Vue 项目模板--TypeScript
+# Vue 项目模板--Vue Cli 2 + TypeScript
 
 ## 已有配置
 
@@ -229,4 +229,4 @@ new Vue({
 
 1. 先安装脚手架[hzq-cli](https://www.npmjs.com/package/hzq-cli)：`npm i -g hzq-cli`
 1. `h -V`：查看版本号，确保安装成功
-1. `h i`：根据提示，选择框架`ts`即可
+1. `h i`：根据提示，选择框架`cli2_ts`即可
