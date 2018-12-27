@@ -13,9 +13,9 @@
     },
     "dependencies": {
         "axios": "^0.18.0",
-        "hzq-axios": "^1.0.8",
+        "hzq-axios": "^1.0.9",
         "hzq-router": "^1.0.3",
-        "hzq-tool": "^1.0.8",
+        "hzq-tool": "^1.0.9",
         "vue": "^2.5.21",
         "vue-class-component": "^6.3.2",
         "vue-property-decorator": "^7.2.0",
@@ -23,6 +23,7 @@
         "vuex": "^3.0.1"
     },
     "devDependencies": {
+        "@types/node": "^10.12.18",
         "autoprefixer": "^7.1.2",
         "babel-core": "^6.22.1",
         "babel-helper-vue-jsx-merge-props": "^2.0.3",

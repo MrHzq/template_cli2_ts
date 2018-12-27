@@ -11,6 +11,7 @@
         "isolatedModules": true,
         "lib": ["dom", "es5", "es6", "es7", "es2015.promise"],
         "sourceMap": true,
-        "pretty": true
+        "pretty": true,
+        "types": ["node"]
     }
 }

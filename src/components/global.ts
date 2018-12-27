@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 // 找到components文件夹下以.vue命名的文件
-const requireComponent = require.context('.', false, /\.vue$/)
+const requireComponent = require['context']('.', false, /\.vue$/)
 
 requireComponent.keys().forEach(fileName => {
     const componentConfig = requireComponent(fileName)
