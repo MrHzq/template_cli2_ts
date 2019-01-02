@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import routes from './routes'
+import hzqRouter from 'hzq-router'
+
 Vue.use(Router)
-routes.unshift({ path: '/', redirect: '/test' })
+let routes = hzqRouter({
+    redirect: '/test',
+    rc: require['context']('@/views', true, /\.vue$/)
+})
 export default new Router({ routes })
